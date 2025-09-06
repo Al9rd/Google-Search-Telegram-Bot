@@ -10,7 +10,7 @@ from aiogram.utils.exceptions import CantParseEntities
 from aiogram.types import InputMediaPhoto
 
 # BOT TOKEN
-BOT_TOKEN = 'telegram_bot_token'  # <-- Replace this with your actual bot token
+BOT_TOKEN = '8230274310:AAEx7pn1vCxpuBqoNyMdiznM4eLHgbWpOEQ'  # <-- Replace this with your actual bot token
 
 # Initialization
 bot = Bot(token=BOT_TOKEN)
@@ -30,8 +30,8 @@ def on_cooldown(user_id):
     return False
 
 # Google search configuration
-GOOGLE_API_KEY = 'abcdefgh' #GOOGLE_API_KEY
-GOOGLE_CSE_ID = 'abcdefg' #GOOGLE_CSE_ID
+GOOGLE_API_KEY = 'AIzaSyA6K5txYyDWzAjsBRhM8irMJOS-UI3uRqU' #GOOGLE_API_KEY
+GOOGLE_CSE_ID = 'c7d70f87cf2f44b36' #GOOGLE_CSE_ID
 RESULTS_PER_PAGE = 5
 
 async def send_search_results(bot, chat_id, message_id, query, start_index, search_type='text'):
