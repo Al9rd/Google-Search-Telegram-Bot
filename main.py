@@ -30,8 +30,8 @@ def on_cooldown(user_id):
     return False
 
 # Google search configuration
-GOOGLE_API_KEY = 'AIzaSyAvzRXElpXWsF6GLo9RkMvzswpabCg3rr8' #GOOGLE_API_KEY
-GOOGLE_CSE_ID = 'c7d70f87cf2f44b36' #GOOGLE_CSE_ID
+GOOGLE_API_KEY = 'AIzaSyA6K5txYyDWzAjsBRhM8irMJOS-UI3uRqU' #GOOGLE_API_KEY
+GOOGLE_CSE_ID = '667b432caec5e421d' #GOOGLE_CSE_ID
 RESULTS_PER_PAGE = 5
 
 async def send_search_results(bot, chat_id, message_id, query, start_index, search_type='text'):
