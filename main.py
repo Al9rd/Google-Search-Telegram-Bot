@@ -30,7 +30,7 @@ def on_cooldown(user_id):
     return False
 
 # Google search configuration
-GOOGLE_API_KEY = 'AIzaSyA6K5txYyDWzAjsBRhM8irMJOS-UI3uRqU' #GOOGLE_API_KEY
+GOOGLE_API_KEY = 'AIzaSyAvzRXElpXWsF6GLo9RkMvzswpabCg3rr8' #GOOGLE_API_KEY
 GOOGLE_CSE_ID = 'c7d70f87cf2f44b36' #GOOGLE_CSE_ID
 RESULTS_PER_PAGE = 5
 
